@@ -18,6 +18,6 @@ Here is how the earnings of Banano Search are distributed
   10% is given back to the users in forms of airdrops faucets etc.
 </li>
 </br>
-Banano Search utilizes banad (Banano powered ads) <a href="https://banad.net">banad.net</a>
+Banano Search utilizes banad (Banano powered ads) <a href="http://banad.net">banad.net</a>
 
 
