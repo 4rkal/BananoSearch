@@ -20,7 +20,7 @@
 {% block meta %}{{"    "}}<link rel="alternate" type="application/rss+xml" title="Searx search: {{ q|e }}" href="{{ search_url() }}&amp;format=rss">{% endblock %}
 {% block content %}
     {% include 'oscar/search.html' %}
-<body data-banad-url="https://banad.net/example" > 
+<body data-banad-url="http://banad.net/example" > 
     <div class="row">
         <div class="col-sm-4 col-sm-push-8" id="sidebar_results">
             {% if number_of_results != '0' -%}
