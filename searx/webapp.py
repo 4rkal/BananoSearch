@@ -84,6 +84,8 @@ from searx.poolrequests import get_global_proxies
 from searx.answerers import ask
 from searx.metrology.error_recorder import errors_per_engines
 from searx.settings_loader import get_default_settings_path
+from flask import send_from_directory
+
 
 # serve pages with HTTP/1.1
 from werkzeug.serving import WSGIRequestHandler
