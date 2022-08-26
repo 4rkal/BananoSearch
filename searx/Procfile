@@ -1,1 +1,1 @@
-web: gunicorn webapp:app
+web: gunicorn -w 4 "webapp:create_app"
