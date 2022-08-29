@@ -1204,6 +1204,12 @@ def faucet():
     return render(
         'faucet.html',
     )
+@app.route('/errors', methods=['GET', 'POST'])
+def errors():
+    """Render faucet page."""
+    return render(
+        'errors.html',
+    )
 application = app
 # patch app to handle non root url-s behind proxy & wsgi
 app.wsgi_app = ReverseProxyPathFix(ProxyFix(application.wsgi_app))
