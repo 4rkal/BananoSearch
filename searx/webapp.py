@@ -1210,6 +1210,12 @@ def errors():
     return render(
         'errors.html',
     )
+@app.route('/donations', methods=['GET', 'POST'])
+def donations():
+    """Render faucet page."""
+    return render(
+        'donations.html',
+    )
 application = app
 # patch app to handle non root url-s behind proxy & wsgi
 app.wsgi_app = ReverseProxyPathFix(ProxyFix(application.wsgi_app))
